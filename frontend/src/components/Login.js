@@ -100,7 +100,6 @@ export const Login = () => {
 }
 
 const Main = styled.div`
-border: 2px solid hotpink;
 width: 100%; 
 height: 100vh;
 gap: 16px;
@@ -110,12 +109,9 @@ flex-direction: column;
 @media (min-width:1024px) {
   max-width: 100vw;
   max-height: 100vh;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 `
 const LoginPageTop = styled.div`
-border: 2px solid turquoise;
 
   @media (min-width:1024px) {
     flex-basis:20%;
@@ -142,7 +138,7 @@ left: calc(10%);
 
 @media (min-width: 1024px){
   font-size: 82px;
-  top: calc(50%);
+  top: calc(10%);
 }
 `
 const LoginPageBottom = styled.div`
@@ -151,12 +147,11 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-border: 2px solid brown;
 margin: 0;
 align-self: center;
 
 @media (min-width:1024px) {
-  flex-basis:50%;
+justify-content: center;
 }
 `
 
